@@ -2,6 +2,77 @@
 
 Una aplicación de escritorio moderna para gestionar commits de Git con generación automática de mensajes usando IA.
 
+## 📊 Estado del Proyecto
+
+### ✅ **Tareas Completadas**
+- [x] **Arquitectura base** - React + TypeScript + Vite + Tailwind CSS
+- [x] **Interfaz de usuario** - Componentes React modulares y responsivos
+- [x] **Integración con IA** - OpenAI GPT API para generación de commits
+- [x] **Configuración de modelos** - Soporte para GPT-4, GPT-3.5 y parámetros configurables
+- [x] **Sistema de staging** - Gestión visual del área de staging y working directory
+- [x] **Conventional Commits** - Generación automática siguiendo el estándar
+- [x] **Selección de proyectos** - Pantalla principal con navegador de directorios
+- [x] **Navegador de archivos** - Exploración del sistema de archivos
+- [x] **Detección de repositorios** - Validación automática de directorios Git
+- [x] **Historial de proyectos** - Lista de proyectos recientes
+- [x] **Configuración de IA** - API keys, modelos, parámetros y estimación de costos
+- [x] **Integración con Electron** - Aplicación de escritorio nativa
+- [x] **Acceso al sistema de archivos** - Operaciones reales de Git y archivos
+- [x] **IPC y preload** - Comunicación segura entre procesos de Electron
+- [x] **Build y empaquetado** - Configuración de electron-builder
+- [x] **Versionado Git** - Repositorio completo en GitHub
+
+### 🔄 **En Desarrollo/Testing**
+- [ ] **Resolución de errores de Electron** - Pantalla en blanco y errores de TypeScript
+- [ ] **Integración completa de Git** - Comandos reales vs datos mock
+- [ ] **Operaciones de archivos** - Lectura/escritura real del sistema
+
+### 📋 **Tareas Pendientes (Roadmap)**
+- [ ] **Funcionalidades Git avanzadas**
+  - [ ] Inicialización de repositorios
+  - [ ] Push/pull a repositorios remotos
+  - [ ] Gestión de ramas
+  - [ ] Historial de commits
+  - [ ] Resolución de conflictos
+- [ ] **Mejoras de IA**
+  - [ ] Análisis de contexto más profundo
+  - [ ] Sugerencias de refactorización
+  - [ ] Detección de breaking changes
+  - [ ] Generación de changelogs
+- [ ] **Funcionalidades adicionales**
+  - [ ] Templates de commits personalizables
+  - [ ] Integración con GitHub/GitLab
+  - [ ] Notificaciones y recordatorios
+  - [ ] Backup automático de configuraciones
+  - [ ] Modo offline con IA local
+- [ ] **Mejoras de UX/UI**
+  - [ ] Temas oscuro/claro
+  - [ ] Atajos de teclado
+  - [ ] Drag & drop para archivos
+  - [ ] Vista de diferencias (diff) visual
+- [ ] **Testing y calidad**
+  - [ ] Tests unitarios
+  - [ ] Tests de integración
+  - [ ] Tests E2E
+  - [ ] CI/CD pipeline
+- [ ] **Documentación**
+  - [ ] Guía de usuario completa
+  - [ ] API documentation
+  - [ ] Contributing guidelines
+  - [ ] Changelog automático
+
+### 🐛 **Problemas Conocidos**
+- **Pantalla en blanco en Electron** - Error de carga del frontend
+- **Errores de TypeScript** - Variables no utilizadas y tipos
+- **Configuración de puertos** - Mismatch entre Vite y Electron
+- **Paths absolutos vs relativos** - Problemas en el build de producción
+
+### 🎯 **Próximos Pasos Inmediatos**
+1. **Resolver errores de Electron** - Pantalla en blanco y carga del frontend
+2. **Completar integración Git** - Reemplazar datos mock con operaciones reales
+3. **Testing de funcionalidades** - Verificar que todo funcione en entorno real
+4. **Optimización de build** - Resolver problemas de paths y configuración
+
 ## 🚀 Características
 
 - **Interfaz visual intuitiva** para gestionar archivos Git
