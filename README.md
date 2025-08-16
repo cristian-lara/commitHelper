@@ -2,76 +2,76 @@
 
 Una aplicación de escritorio moderna para gestionar commits de Git con generación automática de mensajes usando IA.
 
-## 📊 Estado del Proyecto
+## 📊 Project Status
 
-### ✅ **Tareas Completadas**
-- [x] **Arquitectura base** - React + TypeScript + Vite + Tailwind CSS
-- [x] **Interfaz de usuario** - Componentes React modulares y responsivos
-- [x] **Integración con IA** - OpenAI GPT API para generación de commits
-- [x] **Configuración de modelos** - Soporte para GPT-4, GPT-3.5 y parámetros configurables
-- [x] **Sistema de staging** - Gestión visual del área de staging y working directory
-- [x] **Conventional Commits** - Generación automática siguiendo el estándar
-- [x] **Selección de proyectos** - Pantalla principal con navegador de directorios
-- [x] **Navegador de archivos** - Exploración del sistema de archivos
-- [x] **Detección de repositorios** - Validación automática de directorios Git
-- [x] **Historial de proyectos** - Lista de proyectos recientes
-- [x] **Configuración de IA** - API keys, modelos, parámetros y estimación de costos
-- [x] **Integración con Electron** - Aplicación de escritorio nativa
-- [x] **Acceso al sistema de archivos** - Operaciones reales de Git y archivos
-- [x] **IPC y preload** - Comunicación segura entre procesos de Electron
-- [x] **Build y empaquetado** - Configuración de electron-builder
-- [x] **Versionado Git** - Repositorio completo en GitHub
+### ✅ **Completed Tasks**
+- [x] **Base Architecture** - React + TypeScript + Vite + Tailwind CSS
+- [x] **User Interface** - Modular and responsive React components
+- [x] **AI Integration** - OpenAI GPT API for commit generation
+- [x] **Model Configuration** - Support for GPT-4, GPT-3.5 and configurable parameters
+- [x] **Staging System** - Visual management of staging area and working directory
+- [x] **Conventional Commits** - Automatic generation following the standard
+- [x] **Project Selection** - Main screen with directory browser
+- [x] **File Browser** - File system exploration
+- [x] **Repository Detection** - Automatic validation of Git directories
+- [x] **Project History** - List of recent projects
+- [x] **AI Configuration** - API keys, models, parameters and cost estimation
+- [x] **Electron Integration** - Native desktop application
+- [x] **File System Access** - Real Git and file operations
+- [x] **IPC and Preload** - Secure communication between Electron processes
+- [x] **Build and Packaging** - electron-builder configuration
+- [x] **Git Versioning** - Complete repository on GitHub
 
-### 🔄 **En Desarrollo/Testing**
-- [ ] **Resolución de errores de Electron** - Pantalla en blanco y errores de TypeScript
-- [ ] **Integración completa de Git** - Comandos reales vs datos mock
-- [ ] **Operaciones de archivos** - Lectura/escritura real del sistema
+### 🔄 **In Development/Testing**
+- [ ] **Electron Error Resolution** - Blank screen and TypeScript errors
+- [ ] **Complete Git Integration** - Real commands vs mock data
+- [ ] **File Operations** - Real system read/write
 
-### 📋 **Tareas Pendientes (Roadmap)**
-- [ ] **Funcionalidades Git avanzadas**
-  - [ ] Inicialización de repositorios
-  - [ ] Push/pull a repositorios remotos
-  - [ ] Gestión de ramas
-  - [ ] Historial de commits
-  - [ ] Resolución de conflictos
-- [ ] **Mejoras de IA**
-  - [ ] Análisis de contexto más profundo
-  - [ ] Sugerencias de refactorización
-  - [ ] Detección de breaking changes
-  - [ ] Generación de changelogs
-- [ ] **Funcionalidades adicionales**
-  - [ ] Templates de commits personalizables
-  - [ ] Integración con GitHub/GitLab
-  - [ ] Notificaciones y recordatorios
-  - [ ] Backup automático de configuraciones
-  - [ ] Modo offline con IA local
-- [ ] **Mejoras de UX/UI**
-  - [ ] Temas oscuro/claro
-  - [ ] Atajos de teclado
-  - [ ] Drag & drop para archivos
-  - [ ] Vista de diferencias (diff) visual
-- [ ] **Testing y calidad**
-  - [ ] Tests unitarios
-  - [ ] Tests de integración
-  - [ ] Tests E2E
+### 📋 **Pending Tasks (Roadmap)**
+- [ ] **Advanced Git Features**
+  - [ ] Repository initialization
+  - [ ] Push/pull to remote repositories
+  - [ ] Branch management
+  - [ ] Commit history
+  - [ ] Conflict resolution
+- [ ] **AI Improvements**
+  - [ ] Deeper context analysis
+  - [ ] Refactoring suggestions
+  - [ ] Breaking changes detection
+  - [ ] Changelog generation
+- [ ] **Additional Features**
+  - [ ] Customizable commit templates
+  - [ ] GitHub/GitLab integration
+  - [ ] Notifications and reminders
+  - [ ] Automatic configuration backup
+  - [ ] Offline mode with local AI
+- [ ] **UX/UI Improvements**
+  - [ ] Dark/light themes
+  - [ ] Keyboard shortcuts
+  - [ ] Drag & drop for files
+  - [ ] Visual diff view
+- [ ] **Testing and Quality**
+  - [ ] Unit tests
+  - [ ] Integration tests
+  - [ ] E2E tests
   - [ ] CI/CD pipeline
-- [ ] **Documentación**
-  - [ ] Guía de usuario completa
+- [ ] **Documentation**
+  - [ ] Complete user guide
   - [ ] API documentation
   - [ ] Contributing guidelines
-  - [ ] Changelog automático
+  - [ ] Automatic changelog
 
-### 🐛 **Problemas Conocidos**
-- **Pantalla en blanco en Electron** - Error de carga del frontend
-- **Errores de TypeScript** - Variables no utilizadas y tipos
-- **Configuración de puertos** - Mismatch entre Vite y Electron
-- **Paths absolutos vs relativos** - Problemas en el build de producción
+### 🐛 **Known Issues**
+- **Blank screen in Electron** - Frontend loading error
+- **TypeScript errors** - Unused variables and types
+- **Port configuration** - Mismatch between Vite and Electron
+- **Absolute vs relative paths** - Production build issues
 
-### 🎯 **Próximos Pasos Inmediatos**
-1. **Resolver errores de Electron** - Pantalla en blanco y carga del frontend
-2. **Completar integración Git** - Reemplazar datos mock con operaciones reales
-3. **Testing de funcionalidades** - Verificar que todo funcione en entorno real
-4. **Optimización de build** - Resolver problemas de paths y configuración
+### 🎯 **Immediate Next Steps**
+1. **Resolve Electron errors** - Blank screen and frontend loading
+2. **Complete Git integration** - Replace mock data with real operations
+3. **Feature testing** - Verify everything works in real environment
+4. **Build optimization** - Resolve path and configuration issues
 
 ## 🚀 Características
 
